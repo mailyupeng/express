@@ -1,6 +1,7 @@
 3.x
 ===
 
+ * fix `req.host` for IPv6 literals
  * update connect to 2.15.0
    * Add `res.appendHeader`
    * Call error stack even when response has been sent
